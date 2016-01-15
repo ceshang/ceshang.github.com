@@ -17,6 +17,7 @@
     <!-- Custom CSS -->
     <link href="css/landing-page.css" rel="stylesheet">
 
+
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
@@ -49,10 +50,10 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="#about">About</a>
+                        <a href="#resume">Resume</a>
                     </li>
                     <li>
-                        <a href="#services">Services</a>
+                        <a href="#projects">Projects</a>
                     </li>
                     <li>
                         <a href="#contact">Contact</a>
@@ -100,7 +101,7 @@
 
     <!-- Page Content -->
 
-	<a  name="about"></a>
+	<a  name="resume"></a>
     <div class="content-section-a">
 
         <div class="container">
@@ -128,10 +129,11 @@
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
                     <h3 class="section-heading">Skills</h3>
-                    <p class="lead"><b>Web Technologies:</b>&nbsp;&nbsp;HTML,CSS,JavaScript,JQuery,Bootstrap,AngularJS,AJAX,PHP,SQL,
-                        MySQL</p>
-                    <p class="lead"><b>Data Analysis/Mining/Visualization:</b>&nbsp;&nbsp;Python,R,D3.js,Processing,etc</p>
-                    <p class="lead"><b>Other Coding Languages:</b>&nbsp;&nbsp;Basic knowledge of C,JAVA,Ruby</p>
+                    <p class="lead"><b>Web Technologies:</b>&nbsp;&nbsp;HTML, CSS, JavaScript, JQuery, Bootstrap,
+                        AngularJS, AJAX, PHP, SQL, MySQL</p>
+                    <p class="lead"><b>Data Analysis/Mining/Visualization:</b>&nbsp;&nbsp;Python, R, D3.js,
+                        Processing, etc</p>
+                    <p class="lead"><b>Other Coding Languages:</b>&nbsp;&nbsp;Basic knowledge of C, JAVA, Ruby</p>
                 </div>
             </div>
             <div class="row">
@@ -139,6 +141,32 @@
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
                     <h3 class="section-heading">Experience</h3>
+                    <div id="cisco">
+                        <p class="lead"><b>Cisco Systems</b></p>
+                        <p class="lead">Data Analyst,&nbsp;&nbsp;2015.5-Present</p>
+                        <p class="lead">-&nbsp;Design and develop a Web dashboard for internal stakeholders to track
+                            status of software testing projects;</p>
+                        <p class="lead">-&nbsp;Develop front-end screens with <b>HTML, CSS, Javascript, JQuery,
+                            AJAX, JSON,</b>and JS layout frameworks like <b>Bootstrap</b>;</p>
+                        <p class="lead">-&nbsp;Pull and process data from various resources using <b>SQL</b> and
+                            <b>PHP</b>;</p>
+                        <p class="lead">-&nbsp;Explore MVC framework like <b>AngularJS</b> for data-binding.</p>
+                    </div>
+                    <div id="givepulse">
+                        <p class="lead"><b>GivePulse</b></p>
+                        <p class="lead">Data Science Intern,&nbsp;&nbsp;2014.12-2015.5</p>
+                        <p class="lead">-&nbsp;Data analysis for various topic about company operation, user
+                            activities, website promotion, etc;</p>
+                        <p class="lead">-&nbsp;Developed dynamic Geo-visualizations using <b>ArcGIS, CartoDB, D3.js,</b>
+                            etc</p>
+                    </div>
+                    <div id="ut">
+                        <p class="lead"><b>University of Texas at Austin</b></p>
+                        <p class="lead">Student Technician,&nbsp;&nbsp;2014.10-2015.5</p>
+                        <p class="lead">-&nbsp;Maintained website for UT Graduate School;</p>
+                        <p class="lead">-&nbsp;Created and edited web pages using <b>HTML, CSS, and JavaScript</b>
+                            in Dreamweaver.</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -147,32 +175,78 @@
     <!-- /.content-section-a -->
 
 
+    <a  name="projects"></a>
     <div class="content-section-b">
 
         <div class="container">
             <div class="row">
-                <div class="col-lg-10 col-sm-12 text-center">
-                    <h2 class="section-heading">Projects</h2>
+                <div class="col-lg-10 col-sm-12">
+                    <h2 class="section-heading text-center">Projects</h2>
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">Data Analysis/Visualization</h2>
-                    <p class="lead">paragraphs/images/links here to describe experience in this area.</p>
-                    <img src="img/dog.png" style="height: 200px;"/>
 
-                </div>
-                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">UI Design and Development</h2>
-                    <p class="lead">paragraphs/images/links here to describe experience in this area.</p>
-                    <img src="img/dog.png" style="height: 200px;"/>
-                </div>
             </div>
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                </ol>
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner"  style="margin-left:15%;width:70%;" role="listbox">
+                    <div class="item active">
+                        <div class="row">
+                            <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                                <h4 class="section-heading">UX/UI Design and Development</h4>
+                                <p>Re-designed the interface of "database search" for UT library.</p>
+                                <p>Completed HCI design life cycle, including contextual inquiry, user research,
+                                    user flows, personas and scenario, conceptual design, wireframe and prototyping,
+                                heuristic evaluation and user testing.</p>
+                            </div>
+                            <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                                <img src="img/dog.png" style="height: 250px;"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="row">
+                            <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                                <h4 class="section-heading">Information Architecture Design</h4>
+                                <p>Designed a healthy eating IPad App for Senior Citizens.</p>
+                                <p>The procedure was similar to the UT library project, but it inspired us
+                                    to think about design requirements for mobile devices and specific user groups, and
+                                    how they impacted the hierarchy of information.</p>
+                            </div>
+                            <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                                <img src="img/dog.png" style="height: 250px;"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="row">
+                            <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                                <h4 class="section-heading">Data Analysis</h4>
+                                <p>paragraphs/images/links here to describe experience in this area.</p>
+                            </div>
+                            <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                                <img src="img/dog.png" style="height: 250px;"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
+                <!-- Controls -->
+                <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
         </div>
         <!-- /.container -->
 

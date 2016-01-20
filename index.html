@@ -16,7 +16,7 @@
 
     <!-- Custom CSS -->
     <link href="css/landing-page.css" rel="stylesheet">
-
+    <link href="css/project_grid.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -50,10 +50,10 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="#resume">Resume</a>
+                        <a href="#projects">Projects</a>
                     </li>
                     <li>
-                        <a href="#projects">Projects</a>
+                        <a href="#resume">Resume</a>
                     </li>
                     <li>
                         <a href="#contact">Contact</a>
@@ -108,88 +108,153 @@
 
         <div class="container">
             <div class="row">
-                <div class="col-lg-10 col-sm-12  text-center">
+                <div class="col-lg-10 col-sm-12 text-center">
                     <h2 class="section-heading">Projects</h2>
                 </div>
             </div>
-            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-                <!-- Indicators -->
-                <ol class="carousel-indicators">
-                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-                </ol>
-                <!-- Wrapper for slides -->
-                <div class="carousel-inner" role="listbox">
-                    <div class="item active">
-                        <div class="row">
-                            <div class="col-lg-5 col-lg-offset-1 col-sm-5 col-sm-offset-1 col-md-5 col-md-offset-1">
-                                <img src="img/UTOGS.png" style="height: 250px;"/>
-                            </div>
-                            <div class="col-lg-5 col-sm-5 col-md-5">
-                                <h4 class="section-heading">UT Office of Graduate Studies</h4>
-                                <p>From Oct. 2014, I have been working as a student technician at the office of
-                                    graduate studies at UT-Austin. I was responsible for all Web publishmens and
-                                    updates. The experience has enhanced my efficiency of front-end development skills,
-                                    and proved my ability of managing multiple tasks.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="row">
-                            <div class="col-lg-5 col-lg-offset-1 col-sm-5 col-sm-offset-1 col-md-5 col-md-offset-1">
-                                <img src="img/UTlibrary.png" style="height: 250px;"/>
-                            </div>
-                            <div class="col-lg-5 col-sm-5 col-md-5">
-                                <h4 class="section-heading">UX/UI Design and Development</h4>
-                                <p>Re-designed the interface of "database search" for UT library.</p>
-                                <p>Completed HCI design life cycle, including contextual inquiry and analysis, WAAD.
-                                    personas and scenario, sketching, conceptual design, storyboard, wireframe and
-                                    prototyping,pilot testing and UX evaluation.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="row">
-                            <div class="col-lg-5 col-lg-offset-1 col-sm-5 col-sm-offset-1 col-md-5 col-md-offset-1">
-                                <img src="img/IpadApp.png" style="height: 250px;"/>
-                            </div>
-                            <div class="col-lg-5 col-sm-5 col-md-5">
-                                <h4 class="section-heading">Information Architecture Design</h4>
-                                <p>Designed a healthy eating IPad App for Senior Citizens.</p>
-                                <p>The procedure was similar to the UT library project, but it inspired us
-                                    to think about design requirements for mobile devices and specific user groups, and
-                                    how they impacted the hierarchy of information.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="row">
-                            <div class="col-lg-5 col-lg-offset-1 col-sm-5 col-sm-offset-1 col-md-5 col-md-offset-1">
-                                <img src="img/GivePulse.png" style="height: 250px;"/>
-                            </div>
-                            <div class="col-lg-5 col-sm-5 col-md-5">
-                                <h4 class="section-heading">Data Analysis & Visualization</h4>
-                                <p>Developed dynamic Geo-visualizations using CartoDB, ArcGIS, etc.</p>
-                                <p>This project is my capstone project at GivePulse as a data analyst intern. The purpose
-                                    of this project is to apply data analysis skills to explore the hidden facts and
-                                    possible patterns and insights of volunteering events and their social impacts.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Controls -->
-                <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
+            <div class="portfolio-wrapper isotope">
+                <div class="card isotope-item">
+                    <a href="#" class="thumb">
+                        <img src="img/UTOGS.png" alt="" title="">
+                        <span class="overlay"><span class="fa fa-search"></span></span>
+                    </a>
+                    <div class="card-body">
+                        <h2><a href="#">dsfdsgfdsgsfdg</a></h2>
+                    </div><!--end card-body-->
+                    <div class="card-footer">
+                        <ul class="list-inline filters">
+                            <li><a href="#">Web Development</a></li>
+                        </ul>
+                    </div><!--end card-footer-->
+                </div><!--end card-->
+                <div class="card isotope-item">
+                    <a href="#" class="thumb">
+                        <img src="img/UTlibrary.png" alt="" title="">
+                        <span class="overlay"><span class="fa fa-search"></span></span>
+                    </a>
+                    <div class="card-body">
+                        <h2><a href="#">dsfdsgfdsgsfdg</a></h2>
+                    </div><!--end card-body-->
+                    <div class="card-footer">
+                        <ul class="list-inline filters">
+                            <li><a href="#">UI/UX Design</a></li>
+                        </ul>
+                    </div><!--end card-footer-->
+                </div><!--end card-->
+                <div class="card isotope-item">
+                    <a href="#" class="thumb">
+                        <img src="img/IpadApp.png" alt="" title="">
+                        <span class="overlay"><span class="fa fa-search"></span></span>
+                    </a>
+                    <div class="card-body">
+                        <h2><a href="#">dsfdsgfdsgsfdg</a></h2>
+                    </div><!--end card-body-->
+                    <div class="card-footer">
+                        <ul class="list-inline filters">
+                            <li><a href="#">IA Design</a></li>
+                            <li><a href="#">UI/UX Design</a></li>
+                        </ul>
+                    </div><!--end card-footer-->
+                </div><!--end card-->
+                <div class="card isotope-item">
+                    <a href="#" class="thumb">
+                        <img src="img/GivePulse.png" alt="" title="">
+                        <span class="overlay"><span class="fa fa-search"></span></span>
+                    </a>
+                    <div class="card-body">
+                        <h2><a href="#">dsfdsgfdsgsfdg</a></h2>
+                    </div><!--end card-body-->
+                    <div class="card-footer">
+                        <ul class="list-inline filters">
+                            <li><a href="#">Data Analysis</a></li>
+                            <li><a href="#">Data Visualization</a></li>
+                        </ul>
+                    </div><!--end card-footer-->
+                </div><!--end card-->
             </div>
+            <div class="row">
+
+
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                        </ol>
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <div class="row">
+                                    <div class="col-lg-5 col-lg-offset-1 col-sm-5 col-sm-offset-1 col-md-5 col-md-offset-1">
+                                        <img src="img/UTOGS.png" style="height: 250px;"/>
+                                    </div>
+                                    <div class="col-lg-5 col-sm-5 col-md-5">
+                                        <h4 class="section-heading">UT Office of Graduate Studies</h4>
+                                        <p>From Oct. 2014, I have been working as a student technician at the office of
+                                            graduate studies at UT-Austin. I was responsible for all Web publishmens and
+                                            updates. The experience has enhanced my efficiency of front-end development skills,
+                                            and proved my ability of managing multiple tasks.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="row">
+                                    <div class="col-lg-5 col-lg-offset-1 col-sm-5 col-sm-offset-1 col-md-5 col-md-offset-1">
+                                        <img src="img/UTlibrary.png" style="height: 250px;"/>
+                                    </div>
+                                    <div class="col-lg-5 col-sm-5 col-md-5">
+                                        <h4 class="section-heading">UX/UI Design and Development</h4>
+                                        <p>Re-designed the interface of "database search" for UT library.</p>
+                                        <p>Completed HCI design life cycle, including contextual inquiry and analysis, WAAD.
+                                            personas and scenario, sketching, conceptual design, storyboard, wireframe and
+                                            prototyping,pilot testing and UX evaluation.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="row">
+                                    <div class="col-lg-5 col-lg-offset-1 col-sm-5 col-sm-offset-1 col-md-5 col-md-offset-1">
+                                        <img src="img/IpadApp.png" style="height: 250px;"/>
+                                    </div>
+                                    <div class="col-lg-5 col-sm-5 col-md-5">
+                                        <h4 class="section-heading">Information Architecture Design</h4>
+                                        <p>Designed a healthy eating IPad App for Senior Citizens.</p>
+                                        <p>The procedure was similar to the UT library project, but it inspired us
+                                            to think about design requirements for mobile devices and specific user groups, and
+                                            how they impacted the hierarchy of information.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="row">
+                                    <div class="col-lg-5 col-lg-offset-1 col-sm-5 col-sm-offset-1 col-md-5 col-md-offset-1">
+                                        <img src="img/GivePulse.png" style="height: 250px;"/>
+                                    </div>
+                                    <div class="col-lg-5 col-sm-5 col-md-5">
+                                        <h4 class="section-heading">Data Analysis & Visualization</h4>
+                                        <p>Developed dynamic Geo-visualizations using CartoDB, ArcGIS, etc.</p>
+                                        <p>This project is my capstone project at GivePulse as a data analyst intern. The purpose
+                                            of this project is to apply data analysis skills to explore the hidden facts and
+                                            possible patterns and insights of volunteering events and their social impacts.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Controls -->
+                        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+            </div>
+            </div>
+            <!--/.carousel slide-->
         </div>
         <!-- /.container -->
 

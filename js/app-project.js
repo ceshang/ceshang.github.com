@@ -8,15 +8,11 @@ app.controller('projectCtrl',function($scope,$http){
             $scope.projects = response;
         });
 
-    $('.isotope-item').click(function(){
-        $scope.index = $(this).closest('.portfolio-wrapper').find('.isotope-item').index(this);
-    });
-
 });
 app.directive('imgGallery',function(){
+    var index = $('.isotope.active').index();
     return{
-        scope:{obj:'='},
-        template:'{{obj.Img_Content}}'
+        template:index
     };
 });
 

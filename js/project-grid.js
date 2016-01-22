@@ -23,6 +23,7 @@ $(".isotope-item").click(function(){
         $(this).toggleClass("active");
     }
     index = $(this).parent().index()-1;
+    alert(project[index].Skills);
     $("#img1").attr('src',project[index].Img_Content[0]);
     $("#img2").attr('src',project[index].Img_Content[1]);
     $("#desc").html.replace(project[index].Description);

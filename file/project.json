@@ -2,7 +2,7 @@
 {
 "Heading":"UT Office of Graduate Studies",
 "Img_Heading":"img/UTOGS.png",
-"Img_Content":"<img src='img/UTOGS.png' style='height:200px;'/><img src='img/UTOGS.png' style='height:200px;'/>",
+"Img_Content":["img/UTOGS.png","img/UTOGS.png"],
 "Category":"Web Development",
 "Description":"<p>From Oct. 2014, I have been working as a student technician at the office of graduate studies at UT-Austin. I was responsible for all Web publish and updates. The experience has enhanced my efficiency of front-end development skills, and proved my ability of managing multiple tasks.</p>",
 "Skills":"HTML, CSS, JAVASCRIPT, DREAMWEAVER, PHOTOSHOP",

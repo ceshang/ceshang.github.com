@@ -4,41 +4,49 @@
 //get project json data
 var project;
 var index;
+var item = $(".isotope-item");
+var content = $("#project-detail");
 
 $.getJSON("http://ceshang.github.io/file/project.json", function(result){
     project=result;
 });
-$(".isotope-item").click(function(){
-    if($(this).hasClass("card-small")){
+
+item.click(function() {
+    index = $(this).parent().index() - 1;
+    var changeContent = function () {
+        $("#img1").attr('src',project[index].Img_Content[0]);
+        $("#img2").attr('src',project[index].Img_Content[1]);
+        $("#heading").html(project[index].Heading);
+        $("#desc").replaceWith(project[index].Description);
+        $("#skills").replaceWith(project[index].Skills);
+        $("#example").replaceWith(project[index].Example);
+    };
+    if ($(this).hasClass("card-small")) {
         $(".isotope-item").removeClass("active");
         $(this).toggleClass("active");
+        content.slideUp();
+        changeContent();
+        content.slideDown();
     }
-    else{
+    else {
         $("#project-detail").animate({
-            height:"500px",
-            overflow:"auto"
-        },1500);
-        $(".isotope-item").removeClass("card");
-        $(".isotope-item").addClass("card-small");
+            height: "500px",
+            overflow: "auto"
+        }, 1500);
+        item.removeClass("card");
+        item.addClass("card-small");
         $(this).toggleClass("active");
     }
-    index = $(this).parent().index()-1;
-    $("#img1").attr('src',project[index].Img_Content[0]);
-    $("#img2").attr('src',project[index].Img_Content[1]);
-    $("#heading").html(project[index].Heading);
-    $("#desc").replaceWith(project[index].Description);
-    $("#skills").replaceWith(project[index].Skills);
-    $("#example").replaceWith(project[index].Example);
-});
 
-$("#project-detail").find(".fa-chevron-circle-up").click(function(){
+});
+content.find(".fa-chevron-circle-up").click(function(){
     $("#project-detail").animate({
        height:"0",
        overflow:"hidden"
     },500);
-    $(".isotope-item").removeClass("card-small");
-    $(".isotope-item").removeClass("active");
-    $(".isotope-item").addClass("card");
+    item.removeClass("card-small");
+    item.removeClass("active");
+    item.addClass("card");
 });
 
 

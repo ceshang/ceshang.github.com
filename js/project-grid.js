@@ -26,9 +26,9 @@ $(".isotope-item").click(function(){
     alert(project[index].Skills);
     $("#img1").attr('src',project[index].Img_Content[0]);
     $("#img2").attr('src',project[index].Img_Content[1]);
-    $("#desc").html.replace(project[index].Description);
-    $("#skills").html.replace(project[index].Skills);
-    $("#example").html.replace(project[index].Example);
+    $("#desc").replaceWith(project[index].Description);
+    $("#skills").replaceWith(project[index].Skills);
+    $("#example").replaceWith(project[index].Example);
 });
 
 $("#project-detail").find(".fa-chevron-circle-up").click(function(){

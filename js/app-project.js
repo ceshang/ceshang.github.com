@@ -7,7 +7,7 @@ app.controller('projectCtrl',function($scope,$http){
         .success(function(response){
             $scope.projects = response;
         });
-    $scope.index = $('.isotope-item.active').index();
+    $scope.index = $('.active').parent().index()-1;
 });
 
 app.directive('imgGallery',function(){

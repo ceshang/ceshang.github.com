@@ -10,7 +10,6 @@ app.controller('projectCtrl',function($scope,$http){
 
     $('.isotope-item').click(function(){
         $scope.index = $(this).closest('.portfolio-wrapper').find('.isotope-item').index(this);
-        alert($scope.index);
     });
 
 });

@@ -328,3 +328,6 @@
 #project-detail .fa-chevron-circle-up:hover{
     cursor:pointer;
 }
+#project-detail img{
+    height:200px;
+}

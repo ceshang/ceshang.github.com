@@ -114,7 +114,7 @@
             <div class="portfolio-wrapper isotope" ng-repeat="x in projects">
                 <div class="card isotope-item">
                     <div class="thumb">
-                        <div ng-bind-html="x.Img_Heading"></div>
+                        <img ng-src = "{{x.Img_Heading}}" />
                         <span class="overlay"><span class="fa fa-search"></span></span>
                     </div>
                     <div class="card-body">
@@ -122,7 +122,7 @@
                     </div><!--end card-body-->
                     <div class="card-footer">
                         <ul class="list-inline filters">
-                            {{x.Category}}
+                            <li><a href='#'>{{x.Category}}</a></li>
                         </ul>
                     </div><!--end card-footer-->
                 </div><!--end card-->
@@ -133,16 +133,16 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-5 col-lg-offset-1 col-sm-5 col-sm-offset-1 col-md-5 col-md-offset-1">
-                        {{img_gallery}}
+                        <img_gallery obj="projects[index]"></img_gallery>
                     </div>
                     <div class="col-lg-5 col-sm-5 col-md-5">
-                        <h4 class="section-heading">{{heading}}</h4>
-                        {{description}}
+                        <h4 class="section-heading"><proj_heading></proj_heading></h4>
+                        <proj_description obj="projects[index]"></proj_description>
                         <br>
                         <h4 class="section-heading">Skills Used</h4>
-                        <p>{{skills}}</p>
+                        <p><proj_skills obj="projects[index]"></proj_skills></p>
                         <br>
-                        {{examples}}
+                        <proj_examples obj="projects[index]"></proj_examples>
                     </div>
                 </div>
             </div>

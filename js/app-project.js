@@ -7,12 +7,16 @@ app.controller('projectCtrl',function($scope,$http){
         .success(function(response){
             $scope.projects = response;
         });
-
+    $scope.index = $('.isotope.active').index();
 });
+
 app.directive('imgGallery',function(){
-    var index = $('.isotope.active').index();
     return{
-        template:index
-    };
+        restrict:'E',
+        replace:true,
+        template:'<img src="{{project.Img_Content[0]}}" style="height:200px;"/><img src="{{project.Img_Content[1]}}" style="height:200px;"/>',
+        scope:{
+            project:'=project'
+        }
+    }
 });
-

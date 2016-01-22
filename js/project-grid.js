@@ -9,7 +9,7 @@ $(".isotope-item").click(function(){
     }
     else{
         $("#project-detail").animate({
-            height:"300px",
+            height:"500px",
             overflow:"auto"
         },1500);
         $(".isotope-item").removeClass("card");

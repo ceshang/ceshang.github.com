@@ -13,20 +13,24 @@ $.getJSON("http://ceshang.github.io/file/project.json", function(result){
 
 item.click(function() {
     index = $(this).parent().index() - 1;
-    var changeContent = function () {
+    
+    if ($(this).hasClass("card-small")) {
+        item.removeClass("active");
+        $(this).toggleClass("active");
+        content.animate({
+            height:"0",
+            overflow:"hidden"
+        },500);
         $("#img1").attr('src',project[index].Img_Content[0]);
         $("#img2").attr('src',project[index].Img_Content[1]);
         $("#heading").html(project[index].Heading);
         $("#desc").replaceWith(project[index].Description);
         $("#skills").replaceWith(project[index].Skills);
         $("#example").replaceWith(project[index].Example);
-    };
-    if ($(this).hasClass("card-small")) {
-        $(".isotope-item").removeClass("active");
-        $(this).toggleClass("active");
-        content.slideUp();
-        changeContent();
-        content.slideDown();
+        content.animate({
+            height: "500px",
+            overflow: "auto"
+        }, 1500);
     }
     else {
         $("#project-detail").animate({

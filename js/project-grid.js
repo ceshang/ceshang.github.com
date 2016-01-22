@@ -13,14 +13,11 @@ $.getJSON("http://ceshang.github.io/file/project.json", function(result){
 
 item.click(function() {
     index = $(this).parent().index() - 1;
-    
+
     if ($(this).hasClass("card-small")) {
         item.removeClass("active");
         $(this).toggleClass("active");
-        content.animate({
-            height:"0",
-            overflow:"hidden"
-        },500);
+        content.css("height","0");
         $("#img1").attr('src',project[index].Img_Content[0]);
         $("#img2").attr('src',project[index].Img_Content[1]);
         $("#heading").html(project[index].Heading);

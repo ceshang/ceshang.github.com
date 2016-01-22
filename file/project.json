@@ -10,7 +10,7 @@
 },
 {
 "Heading":"UI/UX Design and Development",
-"Img_Heading":"img/UTlibrary.png",
+"Img_Heading":["img/UTlibrary.png","img/UTlibrary.png"],
 "Img_Content":"<img src='img/UTlibrary.png' style='height:200px;'/><img src='img/UTlibrary.png' style='height:200px;'/>",
 "Category":"UI/UX Design and Development",
 "Description":"<p>Re-designed the interface of 'database serach' for UT library.</p><p>Completed HCI design life cycle, including contextual inquiry and analysis, WAAD, personas and scenario, sketching, conceptual design, storyboard, wireframe, prototyping, pilot testing, and UX evaluation.</p>",
@@ -20,7 +20,7 @@
 {
 "Heading":"Information Architecture Design",
 "Img_Heading":"img/IpadApp.png",
-"Img_Content":"<img src='img/IpadApp.png' style='height:200px;'/><img src='img/IpadApp.png' style='height:200px;'/>",
+"Img_Content":["img/IpadApp.png", "img/IpadApp.png"],
 "Category":"UI/UX Design and Development",
 "Description":"<p>Designed a health eating iPad App for senior citizens.</p><p>The procedure was similar to the UT library project, but it inspired us to think about design requirement for mobile devices and specific user group, and how they impacted the hierarchy of information.</p>",
 "Skills":"...",
@@ -29,7 +29,7 @@
 {
 "Heading":"Data Analysis & Visualization",
 "Img_Heading":"img/GivePulse.png",
-"Img_Content":"<img src='img/GivePulse.png' style='height:200px;'/><img src='img/GivePulse.png' style='height:200px;'/>",
+"Img_Content":["img/GivePulse.png","img/GivePulse.png"],
 "Category":"Data Science",
 "Description":"<p>Developed dynamic Geo-visualization using CartoDB, ArcGIS, etc.</p><p>This project is my capstone project at GivePulse as a data analyst intern. The purpose of this project was to apply data analysis skills to explore the hidden facts,possible patterns, and insights of volunteering activities and their social impacts.</p>",
 "Skills":"...",

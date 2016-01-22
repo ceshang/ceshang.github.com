@@ -7,16 +7,15 @@ app.controller('projectCtrl',function($scope,$http){
         .success(function(response){
             $scope.projects = response;
         });
-    
-    $('.card').click(function(){
-        var index = $(this).closest('.portfolio-wrapper').find('.card').index(this);
-        var active_proj = $scope.projects[index];
-        $scope.img_gallery=active_proj["Img_Content"];
-        $scope.heading=active_proj["Heading"];
-        $scope.description=active_proj["Description"];
-        $scope.skills=active_proj["Skills"];
-        $scope.examples=active_proj["Example"];
-    });
 
+    $('.card').click(function(){
+        $scope.index = $(this).closest('.portfolio-wrapper').find('.card').index(this);
+    });
+});
+app.directive('imgGallery',function(){
+    return{
+        scope:{obj:'='},
+        template:'{{obj.Img_Content}}'
+    };
 });
 

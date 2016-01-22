@@ -25,9 +25,9 @@ $(".isotope-item").click(function(){
     index = $(this).parent().index()-1;
     $("#img1").attr('src',project[index].Img_Content[0]);
     $("#img2").attr('src',project[index].Img_Content[1]);
-    //change description html
-    //change skill text
-    //change example html
+    $("#desc").html.replace(project[index].Description);
+    $("#skills").html.replace(project[index].Skills);
+    $("#example").html.replace(project[index].Example);
 });
 
 $("#project-detail").find(".fa-chevron-circle-up").click(function(){

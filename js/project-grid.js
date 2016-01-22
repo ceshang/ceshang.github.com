@@ -30,10 +30,16 @@ item.click(function() {
         }, 1500);
     }
     else {
-        $("#project-detail").animate({
+        content.animate({
             height: "500px",
             overflow: "auto"
         }, 1500);
+        $("#img1").attr('src',project[index].Img_Content[0]);
+        $("#img2").attr('src',project[index].Img_Content[1]);
+        $("#heading").html(project[index].Heading);
+        $("#desc").replaceWith(project[index].Description);
+        $("#skills").replaceWith(project[index].Skills);
+        $("#example").replaceWith(project[index].Example);
         item.removeClass("card");
         item.addClass("card-small");
         $(this).toggleClass("active");

@@ -5,7 +5,7 @@
 var project;
 var index;
 
-$.getJSON("demo_ajax_json.js", function(result){
+$.getJSON("http://ceshang.github.io/file/project.json", function(result){
     project=result;
 });
 $(".isotope-item").click(function(){

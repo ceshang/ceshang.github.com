@@ -10,8 +10,8 @@
 },
 {
 "Heading":"UI/UX Design and Development",
-"Img_Heading":["img/UTlibrary.png","img/UTlibrary.png"],
-"Img_Content":"<img src='img/UTlibrary.png' style='height:200px;'/><img src='img/UTlibrary.png' style='height:200px;'/>",
+"Img_Heading":"img/UTlibrary.png",
+"Img_Content":["img/UTlibrary.png","img/UTlibrary.png"],,
 "Category":"UI/UX Design and Development",
 "Description":"<p>Re-designed the interface of 'database serach' for UT library.</p><p>Completed HCI design life cycle, including contextual inquiry and analysis, WAAD, personas and scenario, sketching, conceptual design, storyboard, wireframe, prototyping, pilot testing, and UX evaluation.</p>",
 "Skills":"...",

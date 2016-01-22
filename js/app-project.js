@@ -8,27 +8,11 @@ app.controller('projectCtrl',function($scope,$http){
             $scope.projects = response;
         });
 
-    $('.card').click(function(){
-        $scope.index = $(this).closest('.portfolio-wrapper').find('.card').index(this);
+    $('.isotope-item').click(function(){
+        $scope.index = $(this).closest('.portfolio-wrapper').find('.isotope-item').index(this);
+        alert($scope.index);
     });
-    
-    $(".isotope-item").click(function(){
-        if($(this).hasClass("card-small")){
-            $(".isotope-item").removeClass("active");
-            $(this).toggleClass("active");
 
-        }
-        else{
-            $("#project-detail").animate({
-                height:"300px",
-                overflow:"auto"
-            },1500);
-            $(".isotope-item").removeClass("card");
-            $(".isotope-item").addClass("card-small");
-            $(this).toggleClass("active");
-        }
-
-    });
 });
 app.directive('imgGallery',function(){
     return{

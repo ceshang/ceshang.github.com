@@ -105,29 +105,77 @@
 
     <a  name="projects"></a>
     <div class="content-section-b">
-        <div class="container" ng-app="projectApp" ng-controller="projectCtrl">
+        <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-sm-12 text-center">
                     <h2 class="section-heading">Projects</h2>
                 </div>
             </div>
-            <div class="portfolio-wrapper isotope" ng-repeat="x in projects">
+            <div class="portfolio-wrapper isotope">
                 <div class="card isotope-item">
                     <div class="thumb">
-                        <img ng-src = "{{x.Img_Heading}}" />
+                        <img src="img/UTOGS.png"/>
                         <span class="overlay"><span class="fa fa-search"></span></span>
                     </div>
                     <div class="card-body">
-                        <h4>{{x.Heading}}</h4>
+                        <h4>UT Office of Graduate Studies</h4>
                     </div><!--end card-body-->
                     <div class="card-footer">
                         <ul class="list-inline filters">
-                            <li><a href='#'>{{x.Category}}</a></li>
+                            <li><a href='#'>Web Development</a></li>
                         </ul>
                     </div><!--end card-footer-->
                 </div><!--end card-->
             </div>
-            <div class="row" id="project-detail">
+            <div class="portfolio-wrapper isotope">
+                <div class="card isotope-item">
+                    <div class="thumb">
+                        <img src="img/UTlibrary.png" />
+                        <span class="overlay"><span class="fa fa-search"></span></span>
+                    </div>
+                    <div class="card-body">
+                        <h4>UI/UX Design and Development</h4>
+                    </div><!--end card-body-->
+                    <div class="card-footer">
+                        <ul class="list-inline filters">
+                            <li><a href='#'>UI/UX Design and Development</a></li>
+                        </ul>
+                    </div><!--end card-footer-->
+                </div><!--end card-->
+            </div>
+            <div class="portfolio-wrapper isotope">
+                <div class="card isotope-item">
+                    <div class="thumb">
+                        <img src="img/IpadApp.png" />
+                        <span class="overlay"><span class="fa fa-search"></span></span>
+                    </div>
+                    <div class="card-body">
+                        <h4>Information Architecture Design</h4>
+                    </div><!--end card-body-->
+                    <div class="card-footer">
+                        <ul class="list-inline filters">
+                            <li><a href='#'>UI/UX Design and Development</a></li>
+                        </ul>
+                    </div><!--end card-footer-->
+                </div><!--end card-->
+            </div>
+            <div class="portfolio-wrapper isotope">
+                <div class="card isotope-item">
+                    <div class="thumb">
+                        <img src="img/GivePulse.png" />
+                        <span class="overlay"><span class="fa fa-search"></span></span>
+                    </div>
+                    <div class="card-body">
+                        <h4>Data Analysis and Data Visualization</h4>
+                    </div><!--end card-body-->
+                    <div class="card-footer">
+                        <ul class="list-inline filters">
+                            <li><a href='#'>Data Science</a></li>
+                        </ul>
+                    </div><!--end card-footer-->
+                </div><!--end card-->
+            </div>
+            <div class="row" id="project-detail"  ng-app="projectApp" ng-controller="projectCtrl">
                 <div class="row text-center">
                     <span class="fa fa-chevron-circle-up"></span>
                 </div>

@@ -1,38 +1,69 @@
 [
-{
-"Heading":"UT Office of Graduate Studies",
-"Img_Heading":"img/UTOGS.png",
-"Img_Content":["img/UTOGS.png",""],
-"Category":"Web Development",
-"Description":"<p>From Oct. 2014, I have been working as a student technician at the office of graduate studies at UT-Austin. I was responsible for Web publish and updates. The experience has enhanced my efficiency of front-end development skills, and proved my ability of managing multiple tasks.</p>",
-"Skills":"HTML, CSS, JAVASCRIPT, DREAMWEAVER, PHOTOSHOP",
-"Example":""
-},
-{
-"Heading":"UI/UX Design and Development",
-"Img_Heading":"img/UTlibrary.png",
-"Img_Content":["img/UTlibrary.png",""],
-"Category":"UI/UX Design and Development",
-"Description":"<p>Re-designed the interface of 'database search' for UT library.</p><p>Completed HCI design life cycle, including contextual inquiry and analysis, WAAD, personas and scenario, sketching, conceptual design, storyboard, wireframe, prototyping, pilot testing, and UX evaluation.</p>",
-"Skills":"Balsamiq, Axure, HTML, CSS, JavaScript",
-"Example":""
-},
-{
-"Heading":"Information Architecture Design",
-"Img_Heading":"img/IpadApp.png",
-"Img_Content":["img/IpadApp.png",""],
-"Category":"UI/UX Design and Development",
-"Description":"<p>Designed a health eating iPad App for senior citizens.</p><p>The procedure inspired us to think about special design requirement for mobile devices and specific user group, and how they impacted the hierarchy of information.</p>",
-"Skills":"Axure",
-"Example":""
-},
-{
-"Heading":"Data Analysis & Visualization",
-"Img_Heading":"img/GivePulse.png",
-"Img_Content":["img/GivePulse.png",""],
-"Category":"Data Science",
-"Description":"<p>This project was my capstone project working at GivePulse as a data analyst intern. The purpose of this project was to apply data analysis skills to explore the hidden facts,possible patterns, and insights of volunteering activities and their social impacts.</p><p>We met with stakeholders, and developed weekly graphs, charts, and dynamic Geo-visualization to help suggest new website features and operation promotion.</p>",
-"Skills":"D3.js, Qlik, CartoDB, ArcGIS",
-"Example":""
-}
+  {
+  "Heading":"UT Office of Graduate Studies",
+  "Img_Heading":"img/UTOGS.png",
+  "Img_Content":["img/UTOGS.png",""],
+  "Category":"Web Development",
+  "Description":"<p>From Oct. 2014, I have been working as a student technician at the office of graduate studies at UT-Austin. I was responsible for Web publish and updates. The experience has enhanced my efficiency of front-end development skills, and proved my ability of managing multiple tasks.</p>",
+  "Skills":"HTML, CSS, JAVASCRIPT, DREAMWEAVER, PHOTOSHOP",
+  "Example":""
+  },
+  {
+  "Heading":"UI/UX Design and Development",
+  "Img_Heading":"img/UTlibrary.png",
+  "Img_Content":["img/UTlibrary.png",""],
+  "Category":"UI/UX Design and Development",
+  "Description":"<p>Re-designed the interface of 'database search' for UT library.</p><p>Completed HCI design life cycle, including contextual inquiry and analysis, WAAD, personas and scenario, sketching, conceptual design, storyboard, wireframe, prototyping, pilot testing, and UX evaluation.</p>",
+  "Skills":"Balsamiq, Axure, HTML, CSS, JavaScript",
+  "Example":""
+  },
+  {
+  "Heading":"Information Architecture Design",
+  "Img_Heading":"img/IpadApp.png",
+  "Img_Content":["img/IpadApp.png",""],
+  "Category":"UI/UX Design and Development",
+  "Description":"<p>Designed a health eating iPad App for senior citizens.</p><p>The procedure inspired us to think about special design requirement for mobile devices and specific user group, and how they impacted the hierarchy of information.</p>",
+  "Skills":"Axure",
+  "Example":""
+  },
+  {
+  "Heading":"Data Analysis & Visualization",
+  "Img_Heading":"img/GivePulse.png",
+  "Img_Content":["img/GivePulse.png",""],
+  "Category":"Data Science",
+  "Description":"<p>This project was my capstone project working at GivePulse as a data analyst intern. The purpose of this project was to apply data analysis skills to explore the hidden facts,possible patterns, and insights of volunteering activities and their social impacts.</p><p>We met with stakeholders, and developed weekly graphs, charts, and dynamic Geo-visualization to help suggest new website features and operation promotion.</p>",
+  "Skills":"D3.js, Qlik, CartoDB, ArcGIS",
+  "Example":""
+  },
+  {
+    "Heading":"Data Mining",
+    "Img_Heading":"img/DataMining.png",
+    "Img_Content":["img/DataMining.png",""],
+    "Category":"Data Science",
+    "Description":"<p>In this project, we developed a job posts classifier using information retrieval and data mining theories and tools. We collected about 37000 job posts in total as our data set and implemented code with Python.</p>",
+    "Skills":"Python, R",
+    "Example":""
+  }
 ]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -21,8 +21,8 @@ item.click(function() {
         $("#img1").attr('src',project[index].Img_Content[0]);
         $("#img2").attr('src',project[index].Img_Content[1]);
         $("#heading").html(project[index].Heading);
-        $("#desc").replaceWith(project[index].Description);
-        $("#skills").replaceWith(project[index].Skills);
+        $("#desc").html(project[index].Description);
+        $("#skills").html(project[index].Skills);
         $("#example").replaceWith(project[index].Example);
         content.animate({
             height: "500px",

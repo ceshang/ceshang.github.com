@@ -20,9 +20,9 @@ item.click(function() {
         content.css("height","0");
         $("#img1").attr('src',project[index].Img_Content[0]);
         $("#heading").html(project[index].Heading);
-        $("#desc").replaceWith(project[index].Description);
-        $("#skills").replaceWith(project[index].Skills);
-        $("#example").replaceWith(project[index].Example);
+        $("#desc").html(project[index].Description);
+        $("#skills").html(project[index].Skills);
+        $("#example").html(project[index].Example);
         content.animate({
             height: "500px",
             overflow: "auto"
@@ -35,9 +35,9 @@ item.click(function() {
         $(this).toggleClass("active");
         $("#img1").attr('src',project[index].Img_Content[0]);
         $("#heading").html(project[index].Heading);
-        $("#desc").replaceWith(project[index].Description);
-        $("#skills").replaceWith(project[index].Skills);
-        $("#example").replaceWith(project[index].Example);
+        $("#desc").html(project[index].Description);
+        $("#skills").html(project[index].Skills);
+        $("#example").html(project[index].Example);
         content.animate({
             height: "500px",
             overflow: "auto"

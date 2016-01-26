@@ -27,6 +27,16 @@
   "Example":""
   },
   {
+  "Heading":"UI Development",
+  "Img_Heading":"img/UI_dev.png",
+  "Img_Content":["img/UI_dev.png",""],
+  "Category":"UI Development",
+  "Description":"<p>Transferred a Hi-Fi design to an interactive interface with raw HTML, CSS, and Javascript. Images editted by Photoshop.</p>",
+  "Skills":"HTML, CSS, Javascript, Photoshop",
+  "Example":"<a href='https://github.com/ceshang/UI_DEV'>View Source Code on Github</a>"
+  },
+
+  {
   "Heading":"Data Analysis & Visualization",
   "Img_Heading":"img/GivePulse.png",
   "Img_Content":["img/GivePulse.png",""],

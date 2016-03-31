@@ -536,6 +536,42 @@
 			</div><!-- End modal -->
 			
 		</section>
+
+		<!-- ==============================================
+		CONTACT
+		=============================================== -->
+		<section id="contact" class="dark-bg light-typo padding-top">
+
+			<div class="container">
+
+				<header class="section-header text-center">
+
+					<h1 class="scrollimation scale-in in">Drop Me a Line</h1>
+
+				</header>
+
+				<form id="contact-form" class="bl_form text-center" action="contact.php" method="post" novalidate="">
+					<span class="field-wrap scrollimation fade-right in">
+						<label class="control-label" for="contact-name">Name</label>
+						<div class="lb_wrap" style="position:relative; display: inline;"><input id="contact-name" name="contactName" type="text" class="label_better requiredField" data-new-placeholder="Name" placeholder="Name" data-error-empty="*Enter your name"></div>
+					</span>
+					<span class="field-wrap scrollimation fade-in in">
+						<label class="control-label" for="contact-mail">Email</label>
+						<div class="lb_wrap" style="position:relative; display: inline;"><input id="contact-mail" name="email" type="email" class="label_better requiredField" data-new-placeholder="Email Address" placeholder="Email Address" data-error-empty="*Enter your email" data-error-invalid="x Invalid email address"></div>
+					</span>
+					<span class="field-wrap scrollimation fade-left in">
+						<label class="control-label" for="contact-message">Message</label>
+						<div class="lb_wrap" style="position:relative; display: inline;"><textarea id="contact-message" name="comments" rows="1" class="label_better requiredField" data-new-placeholder="Message" placeholder="Message" data-error-empty="*Enter your message"></textarea></div>
+					</span>
+
+					<p class="text-center"><button name="submit" type="submit" class="btn btn-meflat icon-left" data-error-message="Error!" data-sending-message="Sending..." data-ok-message="Message Sent"><i class="fa fa-paper-plane"></i>Send Message</button></p>
+					<input type="hidden" name="submitted" id="submitted" value="true">
+
+				</form>
+
+			</div>
+
+		</section>
 		
 		<!-- ==============================================
 		FOOTER
